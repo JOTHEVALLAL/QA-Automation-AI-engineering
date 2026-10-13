@@ -58,5 +58,13 @@ Prior project-stage reports recorded successful build, strict TypeScript, lint, 
 
 This screenshot shows the local Next.js interface connected to the FastAPI backend, displaying candidate rankings, classifications and filters. The underlying data is identified as **partial / historical**, not a current live market feed. A connected API indicator means the backend is reachable; it does not establish that every data source is available.
 
+## FastAPI Backend — Swagger UI Preview
+
+![Momentum Edge FastAPI Swagger UI showing seven GET endpoints](screenshots/fastapi-swagger-ui.png)
+
+[Open full-size FastAPI Swagger UI screenshot](screenshots/fastapi-swagger-ui.png)
+
+The screenshot shows locally generated OpenAPI/Swagger documentation for seven GET endpoints: health, home, market-breadth, momentum, ipo, short-term and long-term. It demonstrates endpoint documentation and schema visibility, **not** that all market-data sources are live or that these endpoints were independently tested from this screenshot.
+
 ## Next portfolio evidence
 Sanitized frontend screenshots, sample endpoint response schemas and a short local demo video can be added after review. Never upload Kite credentials, private data or internal environment details.
