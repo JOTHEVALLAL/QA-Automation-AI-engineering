@@ -11,28 +11,36 @@ QA professional with 14+ years of experience in manual and functional testing, A
 
 This repository showcases **personal technical projects and independently prepared demonstration materials**. It does not contain client or employer source code.
 
+## Featured, independently verifiable evidence
+
+- [Kite mock API test suite — successful GitHub Actions run (Python 3.11 and 3.12)](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/runs/38382331711)
+- [Browser automation report previews](02-playwright-automation/#report-screenshots)
+- [Momentum Edge dashboard screenshots](03-momentum-edge/#application-screenshots)
+- [Next.js website and FastAPI Swagger screenshots](04-fullstack-website/#local-development-screenshot--momentum-page)
+- [Structured prompts and AI-assisted QA examples](05-ai-assisted-engineering/)
+
 ## Portfolio Projects
 
 ### 1. [QA & API Testing](01-qa-api-testing/)
 - [Verified CI run — Python 3.11 and 3.12 both successful](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/runs/38382331711) for the offline mocked Kite authentication suite.
 - Fictional API contract and JSON request/response examples.
 - Functional REST API cases, SSO/MFA scenarios, requirements traceability, a sample defect and AI-assisted test-design example.
-- **Status:** Synthetic public demonstration materials published; not executed test results.
+- **Status:** Synthetic API test-design examples are not executed results; the separate Kite mock pytest suite has a verified successful GitHub Actions run.
 
-### 2. TradingView Agent AI — Browser Automation & Reporting
+### 2. [TradingView Agent AI — Browser Automation & Reporting](02-playwright-automation/)
 - **Stack:** JavaScript, Node.js, Playwright, Chromium, JSON, HTML/CSS.
 - Data-driven workflow to read candidate JSON inputs, automate chart interaction, extract and normalize indicator values, apply predefined validation rules, and generate browser-viewable HTML reports.
-- **Status:** Demonstration screenshots and sanitized sample output to be added.
+- **Evidence:** [Report previews](02-playwright-automation/#report-screenshots), synthetic JSON and HTML sample, and an automation architecture diagram. Real-data reports are included separately and require redistribution-permission review.
 
 ### 3. [Momentum Edge — Stock Analytics Application](03-momentum-edge/)
 - **Stack:** Python, Streamlit, Pandas, Excel and JSON.
 - Interactive dashboards for screening, data validation, candidate ranking and analytics across multiple trading horizons.
-- **Status:** Project overview, conceptual architecture, module catalog and QA checklist published; screenshots pending.
+- **Evidence:** Architecture, module catalog, QA checklist and [dashboard screenshots](03-momentum-edge/#application-screenshots).
 
 ### 4. [Momentum Edge Website — Full-Stack Migration](04-fullstack-website/)
 - **Stack:** Next.js, React, TypeScript, Python, FastAPI and REST APIs.
 - Local website migration reusing existing Python analytics, with frontend routes and backend JSON endpoints.
-- **Status:** Local development; architecture, route catalog and historical validation notes published; screenshots pending.
+- **Evidence:** [Local Momentum page](04-fullstack-website/#local-development-screenshot--momentum-page), [FastAPI Swagger UI](04-fullstack-website/#fastapi-backend--swagger-ui-preview), endpoint catalog and historical validation notes.
 
 ### 5. [AI-Assisted Engineering & Prompt Engineering](05-ai-assisted-engineering/)
 - Structured prompting and iterative requirements refinement with ChatGPT.
