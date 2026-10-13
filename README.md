@@ -24,15 +24,15 @@ This repository showcases **personal technical projects and independently prepar
 - Data-driven workflow to read candidate JSON inputs, automate chart interaction, extract and normalize indicator values, apply predefined validation rules, and generate browser-viewable HTML reports.
 - **Status:** Demonstration screenshots and sanitized sample output to be added.
 
-### 3. Momentum Edge — Stock Analytics Application
+### 3. [Momentum Edge — Stock Analytics Application](03-momentum-edge/)
 - **Stack:** Python, Streamlit, Pandas, Excel and JSON.
 - Interactive dashboards for screening, data validation, candidate ranking and analytics across multiple trading horizons.
-- **Status:** Architecture summary and screenshots to be added.
+- **Status:** Project overview, conceptual architecture, module catalog and QA checklist published; screenshots pending.
 
-### 4. Momentum Edge Website — Full-Stack Migration
+### 4. [Momentum Edge Website — Full-Stack Migration](04-fullstack-website/)
 - **Stack:** Next.js, React, TypeScript, Python, FastAPI and REST APIs.
 - Local website migration reusing existing Python analytics, with frontend routes and backend JSON endpoints.
-- **Status:** Local development; screenshots and API contract examples to be added.
+- **Status:** Local development; architecture, route catalog and historical validation notes published; screenshots pending.
 
 ### 5. AI-Assisted Engineering
 - Structured prompting and iterative requirements refinement with ChatGPT.
