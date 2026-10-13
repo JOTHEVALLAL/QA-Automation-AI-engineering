@@ -13,6 +13,9 @@ The user's original demonstration confirms **token generation from a Python scri
 ## Technical concepts
 Python; SDK integration; REST APIs; request token; access token; session exchange; server-side secrets; authenticated API requests; HTTP errors; token expiry; negative testing; logging redaction.
 
+## Verified offline pytest suite
+- [Runnable Kite SDK mock tests](mock-api-tests/) — 18 locally passing pytest cases, no live credentials or network calls.
+
 ## Included
 - [Conceptual flow](docs/authentication-flow.md)
 - [Python example (placeholders only)](examples/kite_auth_example.py)
