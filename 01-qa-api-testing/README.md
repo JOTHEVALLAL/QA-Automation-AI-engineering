@@ -25,6 +25,11 @@ See [conceptual architecture](docs/architecture.md).
 | Example defect report | [Defect report](docs/sample-defect-report.md) |
 | AI-assisted test design | [Prompt example](docs/copilot-test-design-example.md) |
 
+
+## Real-world SDK authentication example
+
+- [Kite Connect: Token Generation & Validation (sanitized)](kite-connect-api/) — Python SDK session exchange demonstrated; profile validation and negative scenarios documented as proposed examples. No credentials or tokens included.
+
 ## Interview demonstration
 1. Explain how an API client sends a request and validates status, headers, body and schema.
 2. Walk through one valid API response and one unauthorized response.
