@@ -39,13 +39,27 @@ Momentum Edge is a Python-based, interactive stock analytics and decision-suppor
 ## Project status
 The original Streamlit application has been published separately in its application repository. Modules and displayed data depend on feed/market availability. The new Next.js/FastAPI website is a distinct **local migration project** covered under [04-fullstack-website](../04-fullstack-website/).
 
-## Home Dashboard Preview
+## Application Screenshots
+
+### Home Dashboard — Published View
 
 ![Momentum Edge Home dashboard](screenshots/home-dashboard.png)
 
-[Open the Home dashboard screenshot](screenshots/home-dashboard.png)
+[Open full-size Home screenshot](screenshots/home-dashboard.png)
 
-This screenshot demonstrates the application's interface. Review the original image for sensitive account or market data before distributing it more widely. This public case study is **documentation**, not a runnable copy of the underlying application.
+### Home Dashboard — Local View
+
+![Momentum Edge local Home dashboard](screenshots/home-dashboard-Local.png)
+
+[Open full-size local Home screenshot](screenshots/home-dashboard-Local.png)
+
+### Momentum Edge — Analysis Table
+
+![Momentum Edge analysis table](screenshots/Momentum%20Edge%20Table.PNG)
+
+[Open full-size Momentum Edge table](screenshots/Momentum%20Edge%20Table.PNG)
+
+These images illustrate the interface and data presentation. Review screenshots for sensitive account, brokerage or redistribution-restricted market information before sharing them broadly. This public case study is documentation, not a runnable copy of the underlying application.
 
 ## Security and limitations
 The described financial analytics are decision-support tools, not guaranteed investment results or advice. No live credentials, order automation, personal holdings or unauthorized market data are published here.
