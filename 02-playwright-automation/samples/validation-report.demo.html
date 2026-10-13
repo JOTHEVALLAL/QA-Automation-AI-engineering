@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo — Browser Automation Validation Report</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f4f6fa;color:#1c2740;margin:0;padding:2rem}
+main{max-width:1100px;margin:auto}h1{margin-bottom:.3rem}.notice{padding:1rem;background:#fff4d9;border-left:5px solid #a06c00;margin:1rem 0}
+.meta{color:#52627d;margin-bottom:1rem}.stats{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}.stat{background:#fff;padding:1rem;border-radius:8px;min-width:120px}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;background:white}th{background:#1b2943;color:white;text-align:left}td,th{padding:.75rem;border-bottom:1px solid #dde3ed;white-space:nowrap}footer{color:#52627d;margin-top:1rem}
+</style></head>
+<body><main><h1>Momentum Candidates — Demonstration Validation Report</h1>
+<div class="notice"><strong>SYNTHETIC PORTFOLIO SAMPLE.</strong> All names, scores and results below are fictional. This page is not generated from a live automation run and is not investment advice.</div>
+<div class="meta">Input source: PORTFOLIO_DEMO · Purpose: illustrate report structure and risk-check outcomes</div>
+<div class="stats"><div class="stat"><strong>3</strong><div>Demo candidates</div></div><div class="stat"><strong>3</strong><div>Illustrative processed</div></div><div class="stat"><strong>0</strong><div>Illustrative failures</div></div></div>
+<div class="table-wrap"><table><thead><tr><th>Rank</th><th>Symbol</th><th>Momentum Verdict</th><th>Price</th><th>Agent Score</th><th>Agent Verdict</th><th>Weekly Context</th><th>Entry</th><th>Planned SL</th><th>Entry Risk %</th><th>Risk Decision</th></tr></thead>
+<tbody><tr><td>1</td><td>DEMO_ALPHA</td><td>WATCH</td><td>125.50</td><td>86</td><td>READY</td><td>SUPPORTIVE</td><td>130.00</td><td>124.80</td><td>4.00%</td><td>ACCEPT</td></tr>
+<tr><td>2</td><td>DEMO_BETA</td><td>READY NOW</td><td>210.00</td><td>89</td><td>READY</td><td>SUPPORTIVE</td><td>215.00</td><td>189.20</td><td>12.00%</td><td>TOO WIDE — WAIT</td></tr>
+<tr><td>3</td><td>DEMO_GAMMA</td><td>WATCH</td><td>89.75</td><td>74</td><td>PREPARE</td><td>NEUTRAL</td><td>92.00</td><td>87.40</td><td>5.00%</td><td>ACCEPT</td></tr></tbody></table></div>
+<footer>Entry Risk % = (Entry − Planned SL) / Entry × 100. Thresholds and verdicts shown here are fabricated for demonstration, not claimed production rules.</footer></main></body></html>
