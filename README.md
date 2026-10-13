@@ -34,11 +34,12 @@ This repository showcases **personal technical projects and independently prepar
 - Local website migration reusing existing Python analytics, with frontend routes and backend JSON endpoints.
 - **Status:** Local development; architecture, route catalog and historical validation notes published; screenshots pending.
 
-### 5. AI-Assisted Engineering
+### 5. [AI-Assisted Engineering & Prompt Engineering](05-ai-assisted-engineering/)
 - Structured prompting and iterative requirements refinement with ChatGPT.
 - AI-assisted test-artifact drafting with Microsoft 365 Copilot.
 - Code inspection, debugging, implementation and test-validation workflows with OpenAI Codex.
 - **Approach:** Human review, targeted testing and regression checks before accepting changes.
+- **Portfolio evidence:** Structured prompt templates, fictional Copilot-style QA test design, Codex-style debugging and full-stack migration examples.
 
 ## Skills Overview
 
