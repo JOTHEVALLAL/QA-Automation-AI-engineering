@@ -1,5 +1,8 @@
 # Kite Connect Mock API Test Suite (Python pytest)
 
+[![Kite Connect Mock API Tests](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/workflows/kite-mock-api-tests.yml/badge.svg)](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/workflows/kite-mock-api-tests.yml)
+
+
 **Executable test evidence — entirely offline.** This is a self-contained, dependency-injected Python wrapper and simulated Kite SDK client tests. It never contacts Zerodha, generates usable credentials, or executes trades.
 
 ## Run on Windows / Linux
@@ -24,6 +27,10 @@ Only `pytest` is required; the Kite SDK is **not** needed, because `unittest.moc
 - Rejected invalid / expired request tokens and simulated checksum error
 - Authenticated profile response validation
 - Invalid profile responses, expired-token rejection and simulated connection error
+
+## GitHub Actions validation
+
+[Successful CI run #2](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/runs/38382331711): both Python 3.11 and 3.12 matrix jobs completed successfully. GitHub recorded two test-result artifacts. This remains mocked offline testing, not live Kite validation.
 
 ## Verified local execution
 
