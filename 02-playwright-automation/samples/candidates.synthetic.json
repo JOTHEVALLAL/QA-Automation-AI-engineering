@@ -1,0 +1,28 @@
+{
+  "notice": "SYNTHETIC EXAMPLE ONLY - not actual stock market input",
+  "source": "PORTFOLIO_DEMO",
+  "generated_at": "2026-10-13T00:00:00Z",
+  "candidates": [
+    {
+      "rank": 1,
+      "symbol": "DEMO_ALPHA",
+      "price": 125.5,
+      "momentum_verdict": "WATCH",
+      "trade_priority": "P2"
+    },
+    {
+      "rank": 2,
+      "symbol": "DEMO_BETA",
+      "price": 210,
+      "momentum_verdict": "READY NOW",
+      "trade_priority": "P1"
+    },
+    {
+      "rank": 3,
+      "symbol": "DEMO_GAMMA",
+      "price": 89.75,
+      "momentum_verdict": "WATCH",
+      "trade_priority": "P3"
+    }
+  ]
+}
