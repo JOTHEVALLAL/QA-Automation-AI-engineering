@@ -1,5 +1,8 @@
 # Quality Engineering Portfolio | QA, Test Automation & AI-Assisted Development
 
+[![Kite Connect Mock API Tests](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/workflows/kite-mock-api-tests.yml/badge.svg)](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/workflows/kite-mock-api-tests.yml)
+
+
 **Jothe Vallal** | Senior QA Professional | Bangalore, India
 
 ## About
@@ -11,6 +14,7 @@ This repository showcases **personal technical projects and independently prepar
 ## Portfolio Projects
 
 ### 1. [QA & API Testing](01-qa-api-testing/)
+- [Verified CI run — Python 3.11 and 3.12 both successful](https://github.com/JOTHEVALLAL/QA-Automation-AI-engineering/actions/runs/38382331711) for the offline mocked Kite authentication suite.
 - Fictional API contract and JSON request/response examples.
 - Functional REST API cases, SSO/MFA scenarios, requirements traceability, a sample defect and AI-assisted test-design example.
 - **Status:** Synthetic public demonstration materials published; not executed test results.
