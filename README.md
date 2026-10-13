@@ -10,10 +10,10 @@ This repository showcases **personal technical projects and independently prepar
 
 ## Portfolio Projects
 
-### 1. QA & API Testing
-- Test-design examples: test scenarios, test cases, traceability and defect documentation.
-- Functional REST API validation and authentication/authorization testing concepts.
-- **Status:** Sanitized examples to be added.
+### 1. [QA & API Testing](01-qa-api-testing/)
+- Fictional API contract and JSON request/response examples.
+- Functional REST API cases, SSO/MFA scenarios, requirements traceability, a sample defect and AI-assisted test-design example.
+- **Status:** Synthetic public demonstration materials published; not executed test results.
 
 ### 2. TradingView Agent AI — Browser Automation & Reporting
 - **Stack:** JavaScript, Node.js, Playwright, Chromium, JSON, HTML/CSS.
