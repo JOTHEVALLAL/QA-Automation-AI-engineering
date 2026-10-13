@@ -50,5 +50,13 @@ Prior project-stage reports recorded successful build, strict TypeScript, lint, 
 
 **Status:** Local application development. Some modules were observed with stale or partial source data in early October 2026. Live market-data integration depends on valid credentials and permitted source access.
 
+## Local Development Screenshot — Momentum Page
+
+![Next.js Momentum Edge page using historical snapshot data](screenshots/momentum-page.png)
+
+[Open full-size Momentum page screenshot](screenshots/momentum-page.png)
+
+This screenshot shows the local Next.js interface connected to the FastAPI backend, displaying candidate rankings, classifications and filters. The underlying data is identified as **partial / historical**, not a current live market feed. A connected API indicator means the backend is reachable; it does not establish that every data source is available.
+
 ## Next portfolio evidence
 Sanitized frontend screenshots, sample endpoint response schemas and a short local demo video can be added after review. Never upload Kite credentials, private data or internal environment details.
