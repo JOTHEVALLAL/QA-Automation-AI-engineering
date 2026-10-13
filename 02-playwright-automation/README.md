@@ -20,6 +20,25 @@ Automate a repeatable browser-based analytics validation workflow: read candidat
 
 See [architecture](docs/architecture.md), [synthetic JSON sample](samples/candidates.synthetic.json), [demonstration report](samples/validation-report.demo.html) and [QA scenarios](docs/test-scenarios.md).
 
+
+## Report Screenshots
+
+These screenshots illustrate the reporting UI from personal analytics runs. They are **not** a substitute for reviewing the underlying implementation or for independent verification of financial data.
+
+### Momentum Validation Report
+
+![Momentum AI validation report preview](screenshots/momentum-report-preview.png)
+
+[Open full-size momentum preview](screenshots/momentum-report-preview.png) · [View uploaded HTML source](samples/momentum-candidates-report.html)
+
+### Long-Term Radar Validation Report
+
+![Long-Term Radar AI validation report preview](screenshots/long-term-report-preview.png)
+
+[Open full-size long-term preview](screenshots/long-term-report-preview.png) · [View uploaded HTML source](samples/long-term-validation-report.html)
+
+> The two uploaded real-data HTML reports may contain third-party-derived market information. Public redistribution permissions should be checked before using them in interview materials. The separate `validation-report.demo.html` uses synthetic data.
+
 ## Demonstration boundaries
 The HTML report is **illustrative** and is not linked to a runnable TradingView automation in this public portfolio. It shows the *format and kinds of checks* used in the private personal project. No live trading signal, investment recommendation or guaranteed performance is implied.
 
