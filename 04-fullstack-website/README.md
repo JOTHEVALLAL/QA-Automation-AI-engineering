@@ -67,4 +67,4 @@ This screenshot shows the local Next.js interface connected to the FastAPI backe
 The screenshot shows locally generated OpenAPI/Swagger documentation for seven GET endpoints: health, home, market-breadth, momentum, ipo, short-term and long-term. It demonstrates endpoint documentation and schema visibility, **not** that all market-data sources are live or that these endpoints were independently tested from this screenshot.
 
 ## Next portfolio evidence
-Sanitized frontend screenshots, sample endpoint response schemas and a short local demo video can be added after review. Never upload Kite credentials, private data or internal environment details.
+Further sanitized screenshots, verified endpoint response examples and a short local demo video can be added after review. Never upload Kite credentials, private data or internal environment details.
