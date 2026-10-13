@@ -1,0 +1,69 @@
+{
+  "notice": "SYNTHETIC PORTFOLIO EXAMPLE - NOT A LIVE API OR CLIENT DATA",
+  "service": "DemoBenefits",
+  "base_url": "https://api.demobenefits.example/v1",
+  "examples": [
+    {
+      "case_id": "API-001",
+      "request": {
+        "method": "GET",
+        "path": "/benefits",
+        "headers": {
+          "Authorization": "Bearer DEMO_TOKEN_NOT_VALID",
+          "Accept": "application/json"
+        }
+      },
+      "expected_response": {
+        "status": 200,
+        "body": {
+          "items": [
+            {
+              "id": "BEN-1001",
+              "type": "health",
+              "status": "active"
+            }
+          ],
+          "count": 1
+        }
+      }
+    },
+    {
+      "case_id": "API-002",
+      "request": {
+        "method": "GET",
+        "path": "/benefits",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "expected_response": {
+        "status": 401,
+        "body": {
+          "error": {
+            "code": "UNAUTHENTICATED",
+            "message": "Authentication required"
+          }
+        }
+      }
+    },
+    {
+      "case_id": "API-005",
+      "request": {
+        "method": "GET",
+        "path": "/benefits/BEN-OTHER",
+        "headers": {
+          "Authorization": "Bearer DEMO_TOKEN_NOT_VALID"
+        }
+      },
+      "expected_response": {
+        "status": 403,
+        "body": {
+          "error": {
+            "code": "FORBIDDEN",
+            "message": "Access denied"
+          }
+        }
+      }
+    }
+  ]
+}
