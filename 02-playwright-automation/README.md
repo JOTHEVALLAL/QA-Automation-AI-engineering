@@ -1,6 +1,6 @@
 # TradingView Agent AI — Browser Automation & Reporting
 
-> **Portfolio demonstration.** Sample inputs and outputs in this folder are synthetic illustrations, not actual market data, production logs or client material.
+> **Mixed evidence.** The sample JSON and demonstration HTML are synthetic. The separate uploaded Momentum and Long-Term Radar HTML reports and screenshots depict real personal-project analytics output and may contain third-party-derived market data; redistribution permissions must be reviewed before broader sharing.
 
 ## Purpose
 Automate a repeatable browser-based analytics validation workflow: read candidate JSON, navigate chart interfaces, extract configured indicators, normalize extracted values, evaluate predefined scoring/risk rules and present results in an HTML report.
@@ -40,7 +40,7 @@ These screenshots illustrate the reporting UI from personal analytics runs. They
 > The two uploaded real-data HTML reports may contain third-party-derived market information. Public redistribution permissions should be checked before using them in interview materials. The separate `validation-report.demo.html` uses synthetic data.
 
 ## Demonstration boundaries
-The HTML report is **illustrative** and is not linked to a runnable TradingView automation in this public portfolio. It shows the *format and kinds of checks* used in the private personal project. No live trading signal, investment recommendation or guaranteed performance is implied.
+The **synthetic demonstration HTML** is illustrative and is not linked to a runnable TradingView automation in this public portfolio. The separate real-data reports are examples from personal project runs; this public folder does not include the complete browser automation implementation. It shows the *format and kinds of checks* used in the private personal project. No live trading signal, investment recommendation or guaranteed performance is implied.
 
 ## Interview talking points
 - Data-driven browser automation with structured input
